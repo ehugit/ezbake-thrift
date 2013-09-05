@@ -15,6 +15,6 @@ struct SSR
 service BaseProcedure extends ezbakeBaseService.EzBakeBaseService
 {
 
-	SSR getStandardSerachResultForURI(1:string uri, 2:ezbakeTypes.Security security);
+	SSR getStandardSearchResultForURI(1:string uri, 2:ezbakeTypes.Security security);
 	SSR getStandSearchResultForURIs(1:list<string> uris, 2:ezbakeTypes.Security security);
 }
